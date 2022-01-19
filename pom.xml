@@ -8,7 +8,7 @@
         <version>2.1.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.frankmoley.lil</groupId>
+    <groupId>com.pedroperez</groupId>
     <artifactId>spring-design-patterns</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>spring-design-patterns</name>
