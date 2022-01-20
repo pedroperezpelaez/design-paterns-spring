@@ -1,5 +1,6 @@
 package com.pedroperez.designpatterns.patterns.repository;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,11 @@ public class RepositoryTest {
 
     @Test
     public void testRepository() {
-        System.out.println(presidentRepository.findById(1L));
-        System.out.println(presidentRepository.findById(2L));
+        PresidentEntity presidentEntity1 = presidentRepository.findById(1L).get();
+        Assert.assertNotNull(presidentEntity1);
+        Assert.assertEquals("George", presidentEntity1.getFirstName());
+        PresidentEntity presidentEntity2 = presidentRepository.findById(2L).get();
+        Assert.assertNotNull(presidentEntity2);
+        Assert.assertEquals("John", presidentEntity2.getFirstName());
     }
 }
