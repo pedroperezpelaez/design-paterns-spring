@@ -9,4 +9,5 @@ Common design patterns in Java/Spring:
 - Adapter pattern
 - Decorator pattern
 - Repository pattern
+- Template pattern
 
