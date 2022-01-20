@@ -8,4 +8,5 @@ Common design patterns in Java/Spring:
 - Prototype pattern
 - Adapter pattern
 - Decorator pattern
+- Repository pattern
 
