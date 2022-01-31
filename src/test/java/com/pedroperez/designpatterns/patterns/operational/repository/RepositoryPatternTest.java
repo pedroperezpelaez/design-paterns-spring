@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.repository;
+package com.pedroperez.designpatterns.patterns.operational.repository;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RepositoryTest {
+public class RepositoryPatternTest {
     @Autowired
     PresidentRepository presidentRepository;
 

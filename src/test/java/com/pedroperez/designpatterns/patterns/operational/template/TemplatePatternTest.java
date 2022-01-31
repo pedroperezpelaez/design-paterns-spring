@@ -1,9 +1,9 @@
-package com.pedroperez.designpatterns.patterns.template;
+package com.pedroperez.designpatterns.patterns.operational.template;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TemplateTest {
+public class TemplatePatternTest {
     @Test
     public void testTemplates() {
         Template template1 = new TemplateImpl1("123456789");
