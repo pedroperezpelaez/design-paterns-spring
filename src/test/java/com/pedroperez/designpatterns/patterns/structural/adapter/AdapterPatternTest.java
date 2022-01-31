@@ -1,11 +1,14 @@
-package com.pedroperez.designpatterns.patterns.adapter;
+package com.pedroperez.designpatterns.patterns.structural.adapter;
 
 import org.junit.Assert;
 import org.junit.Test;
 
 import static org.mockito.Mockito.*;
 
-public class AppleAdapterTest {
+/**
+ * Converts one interface to another so that it matches what the client is expecting
+ */
+public class AdapterPatternTest {
 
     @Test
     public void testAdapter() {

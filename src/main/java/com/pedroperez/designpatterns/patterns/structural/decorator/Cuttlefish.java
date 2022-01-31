@@ -1,7 +1,7 @@
-package com.pedroperez.designpatterns.patterns.decorator;
+package com.pedroperez.designpatterns.patterns.structural.decorator;
 
 public class Cuttlefish extends PaellaIngredient {
-    private Paella paella;
+    private final Paella paella;
 
     public Cuttlefish(Paella paella) {
         super();
@@ -15,6 +15,6 @@ public class Cuttlefish extends PaellaIngredient {
 
     @Override
     public Float getCost() {
-        return (new Float(2.60)) + (this.paella.getCost());
+        return ((float) 2.60) + (this.paella.getCost());
     }
 }

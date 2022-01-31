@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.decorator;
+package com.pedroperez.designpatterns.patterns.structural.decorator;
 
 public class SeafoodPaella extends Paella {
     public SeafoodPaella() {
@@ -8,6 +8,6 @@ public class SeafoodPaella extends Paella {
 
     @Override
     public Float getCost() {
-        return new Float(14.00);
+        return 14.00F;
     }
 }

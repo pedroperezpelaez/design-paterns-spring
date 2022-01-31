@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.decorator;
+package com.pedroperez.designpatterns.patterns.structural.decorator;
 
 public abstract class Paella {
     protected String description;

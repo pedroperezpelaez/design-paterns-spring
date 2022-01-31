@@ -1,8 +1,11 @@
-package com.pedroperez.designpatterns.patterns.decorator;
+package com.pedroperez.designpatterns.patterns.structural.decorator;
 
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * Dynamically adds responsibility to the interface by wrapping the original code
+ */
 public class DecoratorTest {
 
     @Test

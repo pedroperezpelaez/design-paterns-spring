@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.adapter;
+package com.pedroperez.designpatterns.patterns.structural.adapter;
 
 public class MoroOrange implements Orange {
     @Override
