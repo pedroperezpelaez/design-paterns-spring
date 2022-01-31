@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.builder;
+package com.pedroperez.designpatterns.patterns.creational.builder;
 
 import com.pedroperez.designpatterns.model.Dog;
 import org.springframework.stereotype.Component;

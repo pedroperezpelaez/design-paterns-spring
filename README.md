@@ -2,6 +2,14 @@
 
 Common design patterns in Java/Spring with tests:
 
+- Creational
+    - Builder pattern
+    - Factory pattern
+    - Prototype pattern
+    - Singleton pattern
+- Operational
+    - Repository pattern
+    - Template pattern
 - Structural
     - Adapter pattern
     - Bridge pattern
@@ -9,10 +17,4 @@ Common design patterns in Java/Spring with tests:
     - Decorator pattern
     - Facade pattern
     - Proxy pattern
-- Factory pattern
-- Builder pattern
-- Singleton pattern
-- Prototype pattern
-- Repository pattern
-- Template pattern
 

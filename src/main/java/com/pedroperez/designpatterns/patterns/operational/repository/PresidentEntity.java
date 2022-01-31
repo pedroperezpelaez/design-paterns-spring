@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.repository;
+package com.pedroperez.designpatterns.patterns.operational.repository;
 
 import javax.persistence.*;
 

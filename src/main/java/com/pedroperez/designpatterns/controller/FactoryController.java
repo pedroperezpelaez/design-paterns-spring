@@ -1,7 +1,7 @@
 package com.pedroperez.designpatterns.controller;
 
 import com.pedroperez.designpatterns.model.Pet;
-import com.pedroperez.designpatterns.patterns.factory.PetFactory;
+import com.pedroperez.designpatterns.patterns.creational.factory.PetFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

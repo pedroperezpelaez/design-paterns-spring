@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.factory;
+package com.pedroperez.designpatterns.patterns.creational.factory;
 
 import com.pedroperez.designpatterns.model.Cat;
 import com.pedroperez.designpatterns.model.Dog;
@@ -14,7 +14,7 @@ import static org.junit.Assert.fail;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class PetFactoryTest {
+public class FactoryPatternTest {
     @Autowired
     private PetFactory petFactory;
 

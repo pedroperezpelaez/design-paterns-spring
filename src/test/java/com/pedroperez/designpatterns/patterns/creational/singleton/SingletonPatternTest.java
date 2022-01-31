@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.singleton;
+package com.pedroperez.designpatterns.patterns.creational.singleton;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SingletonTest {
+public class SingletonPatternTest {
     @Autowired
     private SingletonB singletonB1;
     @Autowired

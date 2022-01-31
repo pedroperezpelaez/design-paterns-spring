@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.builder;
+package com.pedroperez.designpatterns.patterns.creational.builder;
 
 import com.pedroperez.designpatterns.model.Dog;
 import org.junit.Test;
@@ -11,7 +11,7 @@ import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DogBuilderTest {
+public class BuilderPatternTest {
     @Autowired
     private DogBuilder dogBuilder;
 

@@ -1,7 +1,7 @@
 package com.pedroperez.designpatterns;
 
-import com.pedroperez.designpatterns.patterns.prototype.PrototypeFalse;
-import com.pedroperez.designpatterns.patterns.prototype.PrototypeTrue;
+import com.pedroperez.designpatterns.patterns.creational.prototype.PrototypeFalse;
+import com.pedroperez.designpatterns.patterns.creational.prototype.PrototypeTrue;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

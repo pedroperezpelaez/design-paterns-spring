@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * Dynamically adds responsibility to the interface by wrapping the original code
  */
-public class DecoratorTest {
+public class DecoratorPatternTest {
 
     @Test
     public void testDecorator() {

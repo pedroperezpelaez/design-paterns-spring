@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.prototype;
+package com.pedroperez.designpatterns.patterns.creational.prototype;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class PrototypeTest {
+public class PrototypePatternTest {
 
     @Autowired
     PrototypeTrue true1;

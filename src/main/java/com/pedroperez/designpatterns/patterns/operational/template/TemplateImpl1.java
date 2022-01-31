@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.template;
+package com.pedroperez.designpatterns.patterns.operational.template;
 
 public class TemplateImpl1 extends Template {
     public TemplateImpl1(String key) {
@@ -7,10 +7,7 @@ public class TemplateImpl1 extends Template {
 
     @Override
     boolean method1(String key) {
-        if (key.length() % 2 > 0) {
-            return false;
-        }
-        return true;
+        return key.length() % 2 <= 0;
     }
 
     @Override

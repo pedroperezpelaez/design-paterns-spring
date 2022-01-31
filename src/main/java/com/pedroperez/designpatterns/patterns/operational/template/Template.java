@@ -1,4 +1,4 @@
-package com.pedroperez.designpatterns.patterns.template;
+package com.pedroperez.designpatterns.patterns.operational.template;
 
 public abstract class Template {
     String key;
